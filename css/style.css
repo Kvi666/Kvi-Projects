@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.divider {
+    width: 95%;
+    height:0;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 5px 0 0 0 ;
+    margin: 100px auto;
+}
+
+.navbar {
+  width: 100%;
+  top: 0;
+}
+
+.brand {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbaritems{
+    font-weight:500;
+    gap: 20px;
+}
+
+.navbaritems :hover {
+  scale: 1.05;
+}
+
+.btn {
+    margin-right: 20px;
+}
+
+.h1wel {
+
+}
+
+.pwel {
+    text-align: justify;
+    /* font-size: 25px; */
+}
+
+.clipart {
+    width: 100%;
+}
+
+.serhead {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.web {
+    width: 75%;
+}
+ 
+.webdis h1{
+    padding-top: 3rem;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.webdis p {
+    text-align: justify;
+}
+
+
+/* why me */
+
+.whymehead {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.whyme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding:0 100px 100px;
+  }
+
+  .whyme-container :hover {
+    scale: 1.05;
+    transition-duration: 70ms;
+  }
+
+  .whyme {
+    border: none;
+    max-width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+  } 
+
+  .whyme :hover {
+    scale : 1;
+  }
+
+  .whyme-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+   
+
+
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+
+    /* pngs */
+  
+    .fa-clock {
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      .fa-check {
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      .fa-calendar-days{
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+    
+
+  /* contact */
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .part1 {
+  
+  }
+  
+  .part1-title {
+    font-size: 60px;
+    padding: 20px;
+    font-family: 'Signika', sans-serif;
+  
+  }
+  
+  .sub-title {
+    padding: 30px;
+    text-align: justify;
+
+  }
+  .socials {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    padding: 0 0 20px 20px;
+  }
+  .socials img {
+    width: 35px;
+  }
+  .socials img:hover {
+    scale: 1.2;
+    transition-duration: 80ms;
+  }
+  
+  .part2 {
+    padding: 40px 20px;
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 5px 5px;
+    margin-bottom: 100px;
+  }
+
