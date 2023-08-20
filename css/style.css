@@ -91,19 +91,22 @@ span {
 .whyme-container :hover {
   scale: 1.05;
   transition-duration: 70ms;
+  box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1);
 }
 
 .whyme {
+  box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.1);
   border: none;
   max-width: 400px;
   padding: 50px;
   border-radius: 20px;
   text-align: center;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(255, 255, 255);
 }
 
 .whyme :hover {
   scale: 1;
+  box-shadow: none
 }
 
 .whyme-title {
