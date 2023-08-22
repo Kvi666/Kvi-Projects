@@ -161,7 +161,7 @@ span {
 .sub-title {
   padding: 30px;
   text-align: justify;
-
+  display:inline;
 }
 
 .socials {
