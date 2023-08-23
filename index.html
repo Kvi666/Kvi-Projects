@@ -191,35 +191,27 @@
               possible. Your input is valuable to us!
             </p>
           </div>
-          <!-- <div class="socials">
-            <a href="https://web.facebook.com/kaweesha.prabhath.9"><img src="img/facebook.png" alt="fb" /></a>
-            <a
-              href="https://www.instagram.com/Kvi69.exe?fbclid=IwAR0Ku45f_1GS43lnmQy2O1g9hNrNPMEnWFiTPCUB7FLTNc4vXzJztaNE5tg"><img
-                src="img/instagram.png" alt="insta" /></a>
-            <a href="https://www.youtube.com/@kvi6912"><img src="img/youtube.png" alt="yt" /></a>
-            <a href="https://discord.com/channels/@me"><img src="img/discord.png" alt="dis" /></a>
-            <a href="https://github.com/Kvi666"><img src="img/github.png" alt="git" /></a>
-          </div> -->
+
         </div>
 
         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 part2">
-          <form>
+          <form action="https://formspree.io/f/maygobla" method="POST">
             <fieldset>
               <div class="mb-3">
-                <label for="TextInput" class="form-label">Full Name</label>
-                <input type="text" id="TextInput" class="form-control" />
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" id="fullName" name="fullName" class="form-control" required>
               </div>
               <div class="mb-3">
-                <label for="TextInput" class="form-label">E-mail</label>
-                <input type="text" id="TextInput" class="form-control" />
+                <label for="eMail" class="form-label">E-mail</label>
+                <input type="text" id="eMail" name="eMail" class="form-control" required>
               </div>
               <div class="mb-3">
-                <label for="TextInput" class="form-label">Contact Number</label>
-                <input type="text" id="TextInput" class="form-control" />
+                <label for="contactNumber" class="form-label">Contact Number</label>
+                <input type="number" id="contactNumber" name="contactNumber" class="form-control" required>
               </div>
               <div class="mb-3 textarea">
-                <label for="TextInput" class="form-label">Your Message</label>
-                <textarea type="text" id="TextInput" class="form-control" rows="4">
+                <label for="yourMessage" class="form-label">Your Message</label>
+                <textarea type="text" id="yourMessage" name="yourMessage" class="form-control" rows="4" required>
                   </textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
