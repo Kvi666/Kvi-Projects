@@ -4,12 +4,11 @@
   scroll-behavior: smooth;
 }
 
-
 .divider {
   width: 95%;
   height: 0;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
   border-width: 5px 0 0 0;
   margin: 100px auto;
 }
@@ -17,6 +16,8 @@
 .navbar {
   width: 100%;
   top: 0;
+  box-shadow: 0px 5px 5px rgba(148, 148, 148, 0.1);
+  
 }
 
 .brand {
@@ -70,7 +71,6 @@ span {
   text-align: justify;
 }
 
-
 /* why me */
 
 .whymehead {
@@ -90,11 +90,11 @@ span {
 .whyme-container :hover {
   scale: 1.05;
   transition-duration: 70ms;
-  box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1);
+  box-shadow: 5px 4px 29px 17px rgba(0, 0, 0, 0.1);
 }
 
 .whyme {
-  box-shadow: 5px 4px 29px 0px rgba(0,0,0,0.1);
+  box-shadow: 5px 4px 29px 0px rgba(0, 0, 0, 0.1);
   border: none;
   max-width: 400px;
   padding: 50px;
@@ -105,7 +105,7 @@ span {
 
 .whyme :hover {
   scale: 1;
-  box-shadow: none
+  box-shadow: none;
 }
 
 .whyme-title {
@@ -113,8 +113,6 @@ span {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-
 
 @media (max-width: 1250px) {
   .pricing-container {
@@ -140,7 +138,6 @@ span {
   margin-bottom: 20px;
 }
 
-
 /* contact */
 
 .contact {
@@ -153,14 +150,13 @@ span {
 .part1-title {
   font-size: 60px;
   padding: 20px;
-  font-family: 'Signika', sans-serif;
-
+  font-family: "Signika", sans-serif;
 }
 
 .sub-title {
   padding: 30px;
   text-align: justify;
-  display:inline;
+  display: inline;
 }
 
 .socials {
@@ -182,7 +178,7 @@ span {
 .part2 {
   padding: 40px 20px;
   border-radius: 10px;
-  border: solid rgba(0, 0, 0, .15);
+  border: solid rgba(0, 0, 0, 0.15);
   border-width: 5px 5px;
   margin-bottom: 100px;
 }
@@ -200,4 +196,3 @@ span {
   transform: translateY(0px);
   opacity: 1;
 }
-
