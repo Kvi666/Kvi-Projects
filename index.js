@@ -26,3 +26,8 @@ function reveal() {
     }
   }
 }
+
+const button = document.getElementById("a");
+button.addEventListener("click", function () {
+  alert("Thank you!");
+});
