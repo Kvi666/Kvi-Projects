@@ -104,69 +104,18 @@ span {
 
 /* why me */
 
-.whymehead {
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.whyme-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 0 20px 20px;
-}
-
-.whyme-container :hover {
-  scale: 1.05;
-  transition-duration: 70ms;
-  box-shadow: 5px 4px 29px 17px rgba(0, 0, 0, 0.1);
-}
-
-.whyme {
-  box-shadow: 5px 4px 29px 0px rgba(0, 0, 0, 0.1);
-  border: none;
-  max-width: 400px;
-  padding: 50px;
-  border-radius: 20px;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-}
-
-.whyme :hover {
-  scale: 1;
-  box-shadow: none;
-}
-
-.whyme-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 1250px) {
-  .pricing-container {
-    flex-direction: column;
-    height: 100%;
-  }
+.why-points {
+  font-weight:400;
+  font-size: 1.26rem;
 }
 
 /* pngs */
 
-.fa-clock {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-.fa-check {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-.fa-calendar-days {
-  font-size: 50px;
-  margin-bottom: 20px;
+.fa-hand-point-right {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: rgb(64, 138, 250);
 }
 
 /* contact */

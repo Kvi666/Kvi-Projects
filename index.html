@@ -20,7 +20,7 @@
   <div class="container-md maincont">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-white">
-      <a href="" class="brand navbar-brand"><img src="img/logo.webp" alt="logo" style="width: 150px" /></a>
+      <a href="index.html" class="brand navbar-brand"><img src="img/logo.webp" alt="logo" style="width: 150px" /></a>
       <button class="navbar-toggler d-md-none" data-bs-toggle="collapse" data-bs-target="#items01">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -160,41 +160,68 @@
       </div>
     </section>
 
-    <!-- Why me -->
+    <!-- Why choose me -->
     <div class="divider"></div>
 
     <section>
-      <h2 class="whymehead text-center reveal">Why Choose <br /><span>me</span></h2>
-
-      <div class="row whyme-container">
-        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 whyme reveal">
-          <i class="fa-regular fa-clock"></i>
-          <div class="whyme-title">Always On Time</div>
+      <div class="row flex-md-row-reverse align-items-center pt-5 mx-3">
+        <div class="reveal mb-5">
+          <h2>Why Choose Me?</h2>
+          <p class="lead">When it comes to Web Development, there are many options out there. <br>
+             So, why should you choose me? Let me highlight a few compelling reasons:</p>
         </div>
-        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 whyme reveal">
-          <i class="fa-solid fa-check"></i>
-          <div class="whyme-title">Hard Working</div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 reveal">
+          <img src="img/why.webp" alt="" style="width: 600px;">
         </div>
-        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 whyme reveal">
-          <i class="fa-solid fa-calendar-days"></i>
-          <div class="whyme-title">24/7 Availability</div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div style="display: flex;" class="reveal">
+            <img src="img/bullet-point.webp" style="width: 30px; margin-right: 10px;">
+            <p class="why-points">Expertise</p>
+          </div>
+          <p class="lead reveal">With years of experience in WEb Development, I bring a wealth of knowledge and skills to the table.
+             My deep understanding of Web Development ensures that you'll receive top-notch service.</p>
+          <div style="display: flex;" class="reveal">
+            <img src="img/bullet-point.webp" style="width: 30px; margin-right: 10px;">
+            <p class="why-points">Personalized Approach</p>
+          </div>
+          <p class="lead reveal">I believe in tailoring my services to meet your unique needs. I take the time to understand your goals,
+             challenges, and aspirations to create a customized solution that works best for you.</p>
+          <div style="display: flex;" class="reveal">
+            <img src="img/bullet-point.webp" style="width: 30px; margin-right: 10px;">
+            <p class="why-points">Commitment to Quality</p>
+          </div>
+          <p class="lead reveal">Quality is at the heart of everything I do. I am dedicated to delivering exceptional results and exceeding
+             your expectations. Your satisfaction is my top priority.</p>
+          <div style="display: inline-flex;" class="reveal">
+            <img src="img/bullet-point.webp" style="width: 30px; margin-right: 10px;">
+            <p class="why-points"> Timely Delivery</p>
+          </div>
+          <p class="lead reveal">Time is valuable, and I respect yours. I adhere to deadlines and ensure that your project or service is 
+            delivered on time, without compromising on quality.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start animate__animated animate__fadeInUp">
+          <a class="btn btn-primary btn-lg px-4 me-md-2 mt-5" href="contact.html">Contact Now</a>
+        </div>
         </div>
       </div>
-    </section>
-
+      </section>
+  
     <!-- contact -->
-    <div class="divider"></div>
     <section id="con">
-      <div class="row contact">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 part1 reveal">
-          <div class="part1-title">GET IN TOUCH</div>
+      <div class="row contact mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 part1">
+          <div class="part1-title reveal">
+            <img src="img/contact.webp" alt="contactwebp" style="width: 300px;">
+            <h1>Let's Build Something <span>Great Together</span></h1>
+          </div>
+
           <div class="sub-title lead">
-            <p>
-              Get in touch with us! Have questions, feedback, or inquiries?
-              Use our easy-to-use contact form to reach out. We're here to
-              assist you and provide the information you need. Simply fill in
-              your details and message, and we'll get back to you as soon as
-              possible. Your input is valuable to us!
+            <p class="reveal"><i
+                class="fa-solid fa-envelope-circle-check"></i> E-mail :
+              Kaweeshaprabhathwp@gmail.com</p>
+            <p class="reveal"><i class="fa-solid fa-phone"></i> contact
+              no: +94 70 25 85 455
             </p>
           </div>
         </div>
@@ -204,29 +231,31 @@
             <fieldset>
               <div class="mb-3">
                 <label for="fullName" class="form-label">Full Name</label>
-                <input type="text" id="fullName" name="fullName" class="form-control" required />
+                <input type="text" id="fullName" name="fullName" class="form-control" required>
               </div>
               <div class="mb-3">
                 <label for="eMail" class="form-label">E-mail</label>
-                <input type="text" id="eMail" name="eMail" class="form-control" required />
+                <input type="text" id="eMail" name="eMail" class="form-control" required>
               </div>
               <div class="mb-3">
                 <label for="contactNumber" class="form-label">Contact Number</label>
-                <input type="number" id="contactNumber" name="contactNumber" class="form-control" required />
+                <input type="number" id="contactNumber" name="contactNumber" class="form-control" required>
               </div>
               <div class="mb-3 textarea">
                 <label for="yourMessage" class="form-label">Your Message</label>
                 <textarea type="text" id="yourMessage" name="yourMessage" class="form-control" rows="4" required>
                   </textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button id="" type="submit" class="btn btn-primary">Submit</button>
             </fieldset>
           </form>
         </div>
       </div>
     </section>
   </div>
+  </div>
 
+  <!-- footer  -->
   <div class="foootr bg-body-secondary">
     <footer class="py-3">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -241,11 +270,11 @@
         </li>
       </ul>
       <div class="socials justify-content-center">
-        <a href="https://web.facebook.com/kaweesha.prabhath.9"><img src="img/facebook.webp" alt="fb" /></a>
+        <a href=""><img src="img/facebook.webp" alt="fb" /></a>
         <a
-          href="https://www.instagram.com/Kvi69.exe?fbclid=IwAR0Ku45f_1GS43lnmQy2O1g9hNrNPMEnWFiTPCUB7FLTNc4vXzJztaNE5tg"><img
+          href=""><img
             src="img/instagram.webp" alt="insta" /></a>
-        <a href="https://www.youtube.com/@kvi6912"><img src="img/youtube.webp" alt="yt" /></a>
+        <a href=""><img src="img/youtube.webp" alt="yt" /></a>
         <a href="https://discord.com/channels/@me"><img src="img/discord.webp" alt="dis" /></a>
         <a href="https://github.com/Kvi666"><img src="img/github.webp" alt="git" /></a>
       </div>
