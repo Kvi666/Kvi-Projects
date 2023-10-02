@@ -176,3 +176,19 @@ span {
   transform: translateY(0px);
   opacity: 1;
 }
+
+
+/* portfolio */
+
+
+.project-image {
+    box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1); 
+    border-radius: 10%;
+}
+
+.project-image:hover {
+    scale: 1.05;
+    transition-duration: 70ms;
+    box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1);   
+}
+
