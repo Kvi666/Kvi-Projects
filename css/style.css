@@ -192,3 +192,7 @@ span {
     box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1);   
 }
 
+.col :hover {
+  scale: 1.01;
+  transition-duration: 500ms;
+}
